@@ -1,4 +1,4 @@
-(footprint "L_pol_2016"
+(footprint "L_2016_pol"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -177,7 +177,7 @@
 		(uuid "c3e48204-e7c7-44b8-9a52-cb5ab5ad997a")
 	)
 	(embedded_fonts no)
-	(model "${KICAD7_3DMODEL_DIR}/Inductor_SMD.3dshapes/AOTA-B201610SR47MT.STEP"
+	(model "${LRV_CUSTOM_LIBS}/3d/L_2016_pol-AOTA-B201610SR47MT.step"
 		(offset
 			(xyz 0 0 0.5)
 		)
