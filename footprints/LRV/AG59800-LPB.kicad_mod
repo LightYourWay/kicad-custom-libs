@@ -1234,7 +1234,7 @@
 		(keepout
 			(tracks not_allowed)
 			(vias allowed)
-			(pads not_allowed)
+			(pads allowed)
 			(copperpour allowed)
 			(footprints not_allowed)
 		)
@@ -1272,7 +1272,7 @@
 		(keepout
 			(tracks not_allowed)
 			(vias allowed)
-			(pads not_allowed)
+			(pads allowed)
 			(copperpour allowed)
 			(footprints not_allowed)
 		)
