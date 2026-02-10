@@ -179,18 +179,13 @@
 			)
 		)
 	)
-	(pad "" np_thru_hole circle
-		(at 0 0)
-		(size 3.7 3.7)
-		(drill 3.7)
-		(layers "F&B.Cu" "B.Mask")
-		(uuid "62764668-fa28-49f2-afd3-4cc93a46fb4d")
-	)
-	(pad "1" smd circle
+	(pad "" thru_hole circle
 		(at 0 0)
 		(size 6 6)
-		(layers "F.Cu" "F.Mask")
-		(uuid "84e5b4c2-0fa8-4f65-8a5d-e957ffd65e15")
+		(drill 3.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "62764668-fa28-49f2-afd3-4cc93a46fb4d")
 	)
 	(embedded_fonts no)
 	(model "${LRV_CUSTOM_LIBS}/3d/9774015151R.step"
