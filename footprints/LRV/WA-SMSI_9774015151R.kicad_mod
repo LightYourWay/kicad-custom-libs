@@ -1,0 +1,240 @@
+(footprint "WA-SMSI_9774015151R"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "RJ45 LAN Transformer, body 16.6x32.8x13.6mm, https://www.we-online.com/en/components/products/datasheet/7499511420?ki")
+	(tags "THT")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "dba0b498-4656-4430-b902-c6722591d869")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WA-SMSI_9774015151R"
+		(at -5.075 27.14 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a0cca88-c0fe-460d-a3e7-d670370420a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80020d5b-fc0d-4d2a-9103-b900cddb49d1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5a2162b-cc7e-42ac-b8c5-d6e62b53d395")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3 -0.325)
+		(end 3 -0.325)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "834d22a7-4b7f-4f7e-bdb3-8de336931537")
+	)
+	(fp_line
+		(start -3 0.325)
+		(end 3 0.325)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "43a464fa-c09e-412f-b935-054f085d4408")
+	)
+	(fp_line
+		(start -2.121321 2.12132)
+		(end 2.12132 -2.121321)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "957502f9-2e79-48f2-a462-3f1a87399162")
+	)
+	(fp_line
+		(start -0.325 3)
+		(end -0.325 -3)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "cfb91bbb-93eb-47fc-bdb3-ef89e2f1af99")
+	)
+	(fp_line
+		(start 0.325 3)
+		(end 0.325 -3)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "23f91162-8212-4f45-9cf8-209b7e6ecf58")
+	)
+	(fp_line
+		(start 2.12132 2.121319)
+		(end -2.121321 -2.121322)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "775114d8-31de-4bb8-baf5-ff01ef6bc869")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.9 0)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Paste")
+		(uuid "cf1aa3e4-a038-4809-9c1b-d5c15e1691e7")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.95 0)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Paste")
+		(uuid "30dccff8-853c-4bc2-9825-6e0d6842a211")
+	)
+	(fp_poly
+		(pts
+			(xy -4.576607 -4.023162) (xy -3.02961 -5.570525) (xy -3.02961 -6.630204) (xy -5.636652 -4.023162)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "25c3723d-9ca3-44bc-9ca2-7c973e3f53cd")
+	)
+	(fp_curve
+		(pts
+			(xy -2.931908 -0.326215) (xy -2.931908 -0.326215) (xy -1.871997 -0.325003) (xy -1.871997 -0.325003)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "d1f4bef1-8965-4fc2-8a94-f15e2dfef169")
+	)
+	(fp_curve
+		(pts
+			(xy -1.871997 -0.325003) (xy -1.767445 -1.02419) (xy -1.181461 -1.725473) (xy -0.325 -1.873317)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "5eb01c3e-35eb-4e7f-ba6d-a81f0aec8c78")
+	)
+	(fp_curve
+		(pts
+			(xy -0.325 -2.932105) (xy -1.906482 -2.765486) (xy -2.822083 -1.45923) (xy -2.931908 -0.326215)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "a3c45f7d-3851-40bf-bdb7-6f0fe65d1129")
+	)
+	(fp_curve
+		(pts
+			(xy -0.325 -1.873317) (xy -0.325 -1.873317) (xy -0.325 -2.932105) (xy -0.325 -2.932105)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "d6d33c0f-a930-4bd4-ad76-371c42de9d4e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2ac9cf64-029f-4585-8fe6-88c4684d542d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "WA-SMSI_9774015151R"
+		(at 0 3.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a6358300-1061-43af-8a39-8020568ba0c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify top)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 6.2 -4.6)
+		(size 6 6)
+		(drill 3.7)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "ab4da1b1-a29d-4fac-85ab-4ac5795ae39f")
+	)
+	(embedded_fonts no)
+	(model "${LRV_CUSTOM_LIBS}/3d/T_Wurth_WE-RJ45LAN_7499511420.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
