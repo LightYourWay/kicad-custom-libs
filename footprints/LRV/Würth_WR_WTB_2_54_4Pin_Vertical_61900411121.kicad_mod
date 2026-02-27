@@ -1,0 +1,226 @@
+(footprint "Würth_WR_WTB_2_54_4Pin_Vertical_61900411121"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "WR-WTB 2.54mm Male Locking Header, 4 Pins")
+	(property "Reference" "REF**"
+		(at 0 -3.8 0)
+		(layer "F.SilkS")
+		(uuid "a2587a87-259a-4a91-be23-d88184db5391")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "61900411121"
+		(at 0 6.4 0)
+		(layer "F.Fab")
+		(uuid "a40fbe7f-28a8-405b-983a-53dd953b0f87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "867ca9cd-6348-4c3c-88b8-4b4b62629dba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "WR-WTB 2.54mm Male Locking Header, 4 Pins"
+		(at 0 4.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c66f6da-7ac7-4c49-b625-74f9cb8ccaca")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Würth"
+		(at 0 9.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b1317f03-5e3e-490a-a54f-033a2f736a04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "MPN" "61900411121"
+		(at 0 8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "792c9201-3bda-463e-8bb7-5d7e975c2eb4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.1 -2.6)
+		(end 5.1 -2.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "374ed435-780f-4ee6-93b1-d3bb2601fc6a")
+	)
+	(fp_line
+		(start -5.1 -2)
+		(end 5.1 -2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "24ef0669-8494-4627-80b8-6516e44a179d")
+	)
+	(fp_line
+		(start -5.1 3.2)
+		(end -5.1 -2.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "68a4b877-125f-4df2-9591-e958bee137b4")
+	)
+	(fp_line
+		(start 5.1 -2.6)
+		(end 5.1 3.2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "71a9f517-3169-44cf-8f94-37e0af7bf46b")
+	)
+	(fp_line
+		(start 5.1 3.2)
+		(end -5.1 3.2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f3bc8dfc-6e21-4d7a-badb-4113232f8b19")
+	)
+	(fp_poly
+		(pts
+			(xy 3.81 -3) (xy 4.01 -3.2) (xy 3.61 -3.2)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "1295da39-7879-4b74-9a91-62c08278837c")
+	)
+	(fp_poly
+		(pts
+			(xy -5.35 -2.85) (xy 5.35 -2.85) (xy 5.35 3.45) (xy -5.35 3.45)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6b8abe8c-7915-44b1-82b0-3e25077c1fa6")
+	)
+	(fp_text user "1"
+		(at 3.34 2.4 0)
+		(layer "F.Fab")
+		(uuid "c9de6844-9417-4237-804c-d411ff1c05ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "4"
+		(at -4.36 2.4 0)
+		(layer "F.Fab")
+		(uuid "d67f4a44-79ee-4ae3-85ef-f59de619a977")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 3.81 0)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "5b234dc7-f0f5-49ad-9d47-290967a74aa0")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 0)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "ad992868-9c45-46c0-8ce3-7c10445fa3be")
+	)
+	(pad "3" thru_hole circle
+		(at -1.27 0)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "fa0e11e6-61d1-49b6-ade6-6a13cb39b40a")
+	)
+	(pad "4" thru_hole circle
+		(at -3.81 0)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "1a9116de-ccf8-49ad-b028-6079214c2a10")
+	)
+	(embedded_fonts no)
+	(model "${LRV_CUSTOM_LIBS}/3d/Würth_WR_WTB_2_54_4Pin_Vertical_61900411121.step"
+		(offset
+			(xyz 0 -0.3 5.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
