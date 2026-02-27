@@ -213,7 +213,7 @@
 		(uuid "6bfd0a42-010b-4368-a1f0-f00e6a30bd27")
 	)
 	(embedded_fonts no)
-	(model "../_custom_libs/3d/Würth_WR_WTB_2_54_4Pin_Angled_61900411021.step"
+	(model "${LRV_CUSTOM_LIBS}/3d/Würth_WR_WTB_2_54_4Pin_Angled_61900411021.step"
 		(offset
 			(xyz 0 -7.5 2.9)
 		)

@@ -381,7 +381,7 @@
 		(uuid "7486b1ca-0b5a-40ac-bd0b-c8e581b6ccea")
 	)
 	(embedded_fonts no)
-	(model "../_custom_libs/3d/Bourns_Encoder_PEC16-4X20F-SXXXX.stp"
+	(model "${LRV_CUSTOM_LIBS}/3d/Bourns_Encoder_PEC16-4X20F-SXXXX.stp"
 		(offset
 			(xyz 5 10.45 4.97)
 		)

@@ -1,0 +1,141 @@
+(footprint "Inolux_IN-PI15TAT5R5G5B"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 1.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6ca74d6b-2153-472f-9023-60a94a6625da")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.08)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "Inolux_IN-PI15TAT5R5G5B"
+		(at 0 -1.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "361c83bb-9744-4055-ac53-bd42f11b8e4e")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.08)
+				(bold yes)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c59893bc-35f2-443e-ac6a-a1f1c9c8e7f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b269bd7-30b1-42f5-8833-c5f6f28cf3f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.8 -0.8)
+		(end -0.8 -0.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7b2a2943-d363-4936-b38d-b8b223e74c96")
+	)
+	(fp_line
+		(start 0.75 -0.8)
+		(end -0.8 -0.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5fc82a56-5b20-43ec-ab4b-829a42363374")
+	)
+	(fp_line
+		(start 0.75 0.8)
+		(end -0.75 0.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8368de4b-aa98-44fb-8d79-0cd266f6d077")
+	)
+	(fp_rect
+		(start -0.75 -0.75)
+		(end 0.75 0.75)
+		(stroke
+			(width 0.02)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "480a15b1-4449-41f6-b09b-681a975fb54d")
+	)
+	(pad "1" smd rect
+		(at -0.475 -0.475)
+		(size 0.55 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "ade4f314-a355-4080-807e-94c606daa7b7")
+	)
+	(pad "2" smd rect
+		(at -0.475 0.475)
+		(size 0.55 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "789fdea2-66d9-4712-a363-55a7eee9fa6c")
+	)
+	(pad "3" smd rect
+		(at 0.475 0.475)
+		(size 0.55 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "97f121d6-f7b6-4ddf-a93c-a120a27f022d")
+	)
+	(pad "4" smd rect
+		(at 0.475 -0.475)
+		(size 0.55 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "58277956-8c0d-404e-9b05-4cbedb015817")
+	)
+	(embedded_fonts no)
+	(model "${LRV_CUSTOM_LIBS}/3d/MicroLED1.5.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

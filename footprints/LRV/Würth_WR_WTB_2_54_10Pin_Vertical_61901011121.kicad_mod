@@ -1,13 +1,13 @@
-(footprint "Würth_WR_WTB_2_54_10Pin_Angled_61901011021"
+(footprint "Würth_WR_WTB_2_54_10Pin_Vertical_61901011121"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "WR-WTB 2.54mm Right Angled Locking Header Bottom Locking, 10 Pins")
+	(descr "WR-WTB 2.54mm Male Locking Header, 10 Pins")
 	(property "Reference" "REF**"
-		(at 16.85 0.335 0)
+		(at 16.85 -0.935 0)
 		(layer "F.SilkS")
-		(uuid "cd8246b8-5137-4ab8-9995-79ed4b94a644")
+		(uuid "d5b27497-248c-4ea4-ba3c-f2d23cc47bcc")
 		(effects
 			(font
 				(size 1 1)
@@ -15,10 +15,10 @@
 			)
 		)
 	)
-	(property "Value" "61901011021"
-		(at 20.885 2.315 0)
+	(property "Value" "61901011121"
+		(at 20.885 1.045 0)
 		(layer "F.Fab")
-		(uuid "4494dbdc-fec4-4f4f-8518-884c3a75c663")
+		(uuid "12babe28-f8b3-4fd9-bcca-c0999aa4c67a")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d0ac2cb0-170b-461e-910d-ce1fe01ef8da")
+		(uuid "6a942cb1-1e13-435d-b36e-a47283776d98")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39,12 +39,12 @@
 			)
 		)
 	)
-	(property "Description" "WR-WTB 2.54mm Right Angled Locking Header Bottom Locking, 10 Pins"
+	(property "Description" "WR-WTB 2.54mm Male Locking Header, 10 Pins"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0bf217ab-8c84-4392-8a2f-3a80606ff98d")
+		(uuid "7259b3de-8789-4eb4-ae28-978d8fc18555")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -57,7 +57,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "3103ec89-ec02-432d-8f30-34900717f919")
+		(uuid "87054ce9-ef95-4e88-b314-878e654a2f1f")
 		(effects
 			(font
 				(size 1 1)
@@ -65,12 +65,12 @@
 			)
 		)
 	)
-	(property "MPN" "61901011021"
+	(property "MPN" "61901011121"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "86ba7ba9-b35d-4dab-8baf-a34374ffff1d")
+		(uuid "2035799e-cfc4-4e65-a0d6-2a8bf9fd9b1e")
 		(effects
 			(font
 				(size 1 1)
@@ -80,48 +80,58 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -12.72 1.7)
-		(end 12.72 1.7)
+		(start -12.72 -2.6)
+		(end 12.72 -2.6)
 		(stroke
 			(width 0.127)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "049bf55a-12cb-47ab-91e8-9c64a58444d2")
+		(uuid "b4f782a6-4a29-4259-8eb0-7ac1a9a486f8")
 	)
 	(fp_line
-		(start -12.72 13.1)
-		(end -12.72 1.7)
+		(start -12.72 3.2)
+		(end -12.72 -2.6)
 		(stroke
 			(width 0.127)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "31d8eb9b-7f2b-42a6-b195-7f6d929cb948")
+		(uuid "867077cb-b2bf-4907-8d3f-4f80c4870f28")
 	)
 	(fp_line
-		(start 12.72 1.7)
-		(end 12.72 13.1)
+		(start -12.7 -2)
+		(end 12.7 -2)
 		(stroke
-			(width 0.127)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "11da910d-9052-4fb0-84c2-7891fc93afeb")
+		(uuid "d8cc743d-1338-4760-b52d-63c33a46eff5")
 	)
 	(fp_line
-		(start 12.72 13.1)
-		(end -12.72 13.1)
+		(start 12.72 -2.6)
+		(end 12.72 3.2)
 		(stroke
 			(width 0.127)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "7f264c88-0954-4507-b070-cd13bea44ec9")
+		(uuid "4e228a66-2348-47a2-8d39-77bf80a54267")
+	)
+	(fp_line
+		(start 12.72 3.2)
+		(end -12.72 3.2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e4c628a5-64bb-46c2-8e62-ed67892ecd0e")
 	)
 	(fp_poly
 		(pts
-			(xy -11.5 -1.3) (xy -11.3 -1.5) (xy -11.7 -1.5)
+			(xy 11.3 -3.2) (xy 11.5 -3.4) (xy 11.1 -3.4)
 		)
 		(stroke
 			(width 0.1)
@@ -129,11 +139,11 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "dd817446-e165-4e57-9276-cdc1d29b9d21")
+		(uuid "677fc9cb-17d2-47b4-8c60-1c05315b39cc")
 	)
 	(fp_poly
 		(pts
-			(xy -12.97 -0.9) (xy 12.97 -0.9) (xy 12.97 13.35) (xy -12.97 13.35)
+			(xy -12.97 -2.85) (xy 12.97 -2.85) (xy 12.97 3.45) (xy -12.97 3.45)
 		)
 		(stroke
 			(width 0.05)
@@ -141,12 +151,12 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "8e3c478c-61b4-41fc-bd21-adb522538014")
+		(uuid "27e84e06-3ed5-4873-b80b-cdccbdd52745")
 	)
 	(fp_text user "1"
-		(at -12.065 3.175 0)
+		(at 10.98 2.5 0)
 		(layer "F.SilkS")
-		(uuid "f11c19c5-f110-472b-828c-beaa1042ef45")
+		(uuid "255bb62a-cacd-40a2-a56e-44f17322a524")
 		(effects
 			(font
 				(size 1 1)
@@ -155,9 +165,9 @@
 		)
 	)
 	(fp_text user "1"
-		(at -12.065 3.175 0)
+		(at 10.96 2.5 0)
 		(layer "F.Fab")
-		(uuid "134407c0-6f84-468d-b6f8-cfc969451383")
+		(uuid "0aae470a-75c6-41f5-afd4-82b46cba507d")
 		(effects
 			(font
 				(size 1 1)
@@ -166,9 +176,9 @@
 		)
 	)
 	(fp_text user "10"
-		(at 10.795 3.175 0)
+		(at -12.64 2.5 0)
 		(layer "F.Fab")
-		(uuid "6c2a1d98-d1a8-4aff-a941-29f2951bed2b")
+		(uuid "243eedb3-2e34-4a51-96bc-276c891cf87a")
 		(effects
 			(font
 				(size 1 1)
@@ -177,105 +187,105 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at -11.43 0)
-		(size 1.508 1.508)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
-		(uuid "b917b2ff-00a4-4bac-ae3d-846f41dd48ec")
-	)
-	(pad "2" thru_hole circle
-		(at -8.89 0)
-		(size 1.508 1.508)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
-		(uuid "e651d66b-65a5-46db-8ee5-dcc42ef4e478")
-	)
-	(pad "3" thru_hole circle
-		(at -6.35 0)
-		(size 1.508 1.508)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
-		(uuid "b7d70066-2dd6-4a97-ad7d-0d65031e27c6")
-	)
-	(pad "4" thru_hole circle
-		(at -3.81 0)
-		(size 1.508 1.508)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
-		(uuid "8118fdb9-28ca-49fc-a1be-9c6b7f9eed35")
-	)
-	(pad "5" thru_hole circle
-		(at -1.27 0)
-		(size 1.508 1.508)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
-		(uuid "ee6edf85-7a01-4e95-9dfe-53acb5616e47")
-	)
-	(pad "6" thru_hole circle
-		(at 1.27 0)
-		(size 1.508 1.508)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
-		(uuid "a0e6ae7e-351f-485a-bb49-517a3cbc9b6e")
-	)
-	(pad "7" thru_hole circle
-		(at 3.81 0)
-		(size 1.508 1.508)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
-		(uuid "0ac0ea35-b9ac-4ede-b1bd-6d727c4371b9")
-	)
-	(pad "8" thru_hole circle
-		(at 6.35 0)
-		(size 1.508 1.508)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
-		(uuid "7a4e5764-b63d-412f-93b2-6ecf2b29ac19")
-	)
-	(pad "9" thru_hole circle
-		(at 8.89 0)
-		(size 1.508 1.508)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
-		(uuid "831d1184-ed50-465f-b273-95dde741f8b6")
-	)
-	(pad "10" thru_hole circle
 		(at 11.43 0)
 		(size 1.508 1.508)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "557c87de-c604-467b-ab55-d2cb97807a86")
+		(uuid "3c9821cb-ba43-4242-8863-3a7790f7a237")
+	)
+	(pad "2" thru_hole circle
+		(at 8.89 0)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "975da017-ffdc-4368-9041-94978efd49f9")
+	)
+	(pad "3" thru_hole circle
+		(at 6.35 0)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "99409853-ef3b-4f2a-9b9e-7528f75096a1")
+	)
+	(pad "4" thru_hole circle
+		(at 3.81 0)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "2927a15e-0ad6-43c3-be9b-cf02136de396")
+	)
+	(pad "5" thru_hole circle
+		(at 1.27 0)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "f961bcd2-003b-435c-a121-44c1811b2f82")
+	)
+	(pad "6" thru_hole circle
+		(at -1.27 0)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "552d3c06-e4ea-4f58-81e4-3d82ea2c1966")
+	)
+	(pad "7" thru_hole circle
+		(at -3.81 0)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "7703e4e4-0e87-4121-8eca-76eb332f1af0")
+	)
+	(pad "8" thru_hole circle
+		(at -6.35 0)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "b2739a22-c5ca-4f2d-bc8d-ab74bd7f8903")
+	)
+	(pad "9" thru_hole circle
+		(at -8.89 0)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "7293acfe-3cb3-42d4-a8d5-7c3961f4bd58")
+	)
+	(pad "10" thru_hole circle
+		(at -11.43 0)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "b2861890-9489-4cfb-8d6a-a58e8b5242fd")
 	)
 	(embedded_fonts no)
-	(model "${LRV_CUSTOM_LIBS}/3d/Würth_WR_WTB_2_54_10Pin_Angled_61901011021.step"
+	(model "${LRV_CUSTOM_LIBS}/3d/Würth_WR_WTB_2_54_10Pin_Vertical_61901011121.step"
 		(offset
-			(xyz 0 -7.5 2.9)
+			(xyz 0 -0.3 5.75)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 0 -180)
+			(xyz 0 0 0)
 		)
 	)
 )
