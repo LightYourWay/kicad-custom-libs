@@ -7,7 +7,7 @@
 	(property "Reference" "REF**"
 		(at 0 -4.85 0)
 		(layer "F.SilkS")
-		(uuid "e8cc44b3-3e29-4204-b72d-a2c862479fee")
+		(uuid "cd3dc7fd-b947-4e94-a73d-1add221f4a6b")
 		(effects
 			(font
 				(size 1 1)
@@ -18,7 +18,7 @@
 	(property "Value" "#200-011 Mount Spacer"
 		(at 0 4.95 0)
 		(layer "F.Fab")
-		(uuid "4c6c30f5-0672-4c92-bc1d-7d8e3cbd99d4")
+		(uuid "2ed9d877-aa8c-47f5-b836-18fe55a6cb05")
 		(effects
 			(font
 				(size 1 1)
@@ -30,7 +30,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "127c810d-ef85-47ed-a82c-dd8375dee2bf")
+		(uuid "bba3e5de-56f7-4208-ad18-9abbf6809a79")
 		(effects
 			(font
 				(size 1 1)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e2c984c0-9a4e-4bd2-9ab3-e8a7f6374338")
+		(uuid "2c321bfa-56da-41cd-8b8e-9caee1c7c907")
 		(effects
 			(font
 				(size 1 1)
@@ -50,7 +50,7 @@
 			)
 		)
 	)
-	(attr smd)
+	(attr exclude_from_pos_files)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center 0 0)
@@ -61,7 +61,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "36b0b3d3-8752-43df-98d5-7f6f8906788a")
+		(uuid "941bb0c1-22f9-4f0d-b04a-29565cfaf701")
 	)
 	(fp_circle
 		(center 0 0)
@@ -72,7 +72,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "bfc27ea4-e9cf-4f3e-980c-b38fd200b8d4")
+		(uuid "011a6077-a089-43d9-816b-41c69dc00b4a")
 	)
 	(fp_circle
 		(center 0 0)
@@ -83,13 +83,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "8682ef5e-ba4f-42f6-818e-4256549c2478")
+		(uuid "eeb680e3-e467-40a6-a7f5-e85011143afa")
 	)
 	(fp_text user "${REFERENCE}"
 		(at -5 0 90)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "6fef4f80-c858-409a-a1f6-501189067834")
+		(uuid "388f9aa4-90e7-43fc-bc67-233daaaf7350")
 		(effects
 			(font
 				(size 1.5 1.5)

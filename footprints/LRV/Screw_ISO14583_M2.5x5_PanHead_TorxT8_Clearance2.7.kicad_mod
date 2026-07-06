@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -3.45 0)
 		(layer "F.SilkS")
-		(uuid "74a00206-87f3-45e8-adad-afbb091bf611")
+		(uuid "8c595c58-5cbd-4902-9c59-3d24be50007f")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "Screw_ISO14583_M2.5x5_PanHead_TorxT8_Clearance2.7"
 		(at 0 3.2 0)
 		(layer "F.Fab")
-		(uuid "0bc3b1e4-3126-4ed0-bee2-16558d18891a")
+		(uuid "72328b8d-90d0-44f5-8f22-28ceadda0a14")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "96f3a1a4-2b66-4923-a956-03105c31eb40")
+		(uuid "3ae5f3c9-906b-4e5b-8bdd-820553c5f660")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "19370fa3-83ae-42f8-99db-3b3f3f456d10")
+		(uuid "858971f8-8314-4259-b285-10fa8dc109fb")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,7 +53,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "165b6b39-2213-433c-800a-cb4dd5ad1c0a")
+		(uuid "80f33fb9-0a52-45b0-8b22-d4e0f8e47bc3")
 		(effects
 			(font
 				(size 1 1)
@@ -61,7 +61,7 @@
 			)
 		)
 	)
-	(attr exclude_from_pos_files exclude_from_bom)
+	(attr through_hole exclude_from_pos_files)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center 0 0)
@@ -72,7 +72,7 @@
 		)
 		(fill no)
 		(layer "Cmts.User")
-		(uuid "ed4931c0-f78b-43b6-b78a-770d6e376423")
+		(uuid "df5cd350-bade-4424-9377-280585036d47")
 	)
 	(fp_circle
 		(center 0 0)
@@ -83,12 +83,12 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "4afcd1da-866f-4b9d-986f-b5498fac2f0b")
+		(uuid "fa63e103-51b0-4226-bf1e-cddc20be3e91")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "2f867adf-fbb7-4689-8320-a037afa27025")
+		(uuid "e76d6722-0641-46c6-8166-c320160c847c")
 		(effects
 			(font
 				(size 1 1)
@@ -103,14 +103,14 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
-		(uuid "0e15e8de-6ed0-4a09-a3e6-7917bde7562e")
+		(uuid "390bd55e-2a2d-4bf1-b4bd-2e5ccddcc2af")
 	)
 	(pad "1" connect circle
 		(at 0 0)
 		(size 5 5)
 		(layers "F.Cu" "F.Mask")
 		(zone_connect 2)
-		(uuid "4d7b71f0-bed2-4f6b-8c4c-2be553ef086a")
+		(uuid "d8e23d23-c1b8-492f-9ee0-abf418c112d0")
 	)
 	(embedded_fonts no)
 	(model "${LRV_CUSTOM_LIBS}/3d/Screw_ISO14583_M2.5x5_PanHead_TorxT8.step"
