@@ -10,7 +10,7 @@ FILE_DESCRIPTION(
 
 FILE_NAME(
 /* name */ '#200-022-Medium_OLED_Bracket.step',
-/* time_stamp */ '2026-06-25T23:05:40+02:00',
+/* time_stamp */ '2026-07-06T17:07:41+02:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20.1',
@@ -2121,20 +2121,20 @@ POSITIVE_RATIO_MEASURE(7850.),#1598);
 #2092=DIRECTION('center_axis',(0.,1.,0.));
 #2093=DIRECTION('ref_axis',(-1.,0.,-1.22464679914735E-16));
 #2094=CARTESIAN_POINT('',(0.,0.,0.));
-#2095=CARTESIAN_POINT('Origin',(-22.,-7.,-2.4));
-#2096=CARTESIAN_POINT('',(-25.5,-7.,-2.4));
-#2097=CARTESIAN_POINT('Origin',(-22.,-7.,-2.4));
-#2098=CARTESIAN_POINT('',(-25.5,-5.,-2.4));
-#2099=CARTESIAN_POINT('',(-25.5,-7.,-2.4));
-#2100=CARTESIAN_POINT('Origin',(-22.,-5.,-2.4));
-#2101=CARTESIAN_POINT('Origin',(-22.,-5.,-2.4));
-#2102=CARTESIAN_POINT('Origin',(22.,-7.,-2.4));
-#2103=CARTESIAN_POINT('',(18.5,-7.,-2.4));
-#2104=CARTESIAN_POINT('Origin',(22.,-7.,-2.4));
-#2105=CARTESIAN_POINT('',(18.5,-5.,-2.4));
-#2106=CARTESIAN_POINT('',(18.5,-7.,-2.4));
-#2107=CARTESIAN_POINT('Origin',(22.,-5.,-2.4));
-#2108=CARTESIAN_POINT('Origin',(22.,-5.,-2.4));
+#2095=CARTESIAN_POINT('Origin',(-22.,-7.,-2.6));
+#2096=CARTESIAN_POINT('',(-25.5,-7.,-2.6));
+#2097=CARTESIAN_POINT('Origin',(-22.,-7.,-2.6));
+#2098=CARTESIAN_POINT('',(-25.5,-5.,-2.6));
+#2099=CARTESIAN_POINT('',(-25.5,-7.,-2.6));
+#2100=CARTESIAN_POINT('Origin',(-22.,-5.,-2.6));
+#2101=CARTESIAN_POINT('Origin',(-22.,-5.,-2.6));
+#2102=CARTESIAN_POINT('Origin',(22.,-7.,-2.6));
+#2103=CARTESIAN_POINT('',(18.5,-7.,-2.6));
+#2104=CARTESIAN_POINT('Origin',(22.,-7.,-2.6));
+#2105=CARTESIAN_POINT('',(18.5,-5.,-2.6));
+#2106=CARTESIAN_POINT('',(18.5,-7.,-2.6));
+#2107=CARTESIAN_POINT('Origin',(22.,-5.,-2.6));
+#2108=CARTESIAN_POINT('Origin',(22.,-5.,-2.6));
 #2109=CARTESIAN_POINT('Origin',(-41.2,0.,-2.4));
 #2110=CARTESIAN_POINT('',(-42.25,-1.2,-2.4));
 #2111=CARTESIAN_POINT('Origin',(-41.2,-1.2,-2.4));
