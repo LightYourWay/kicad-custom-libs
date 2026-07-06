@@ -1,0 +1,112 @@
+(footprint "#200-012 Encoder Spacer"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SMT Steel Spacer with internal Thread M2.5, height 0.5mm")
+	(property "Reference" "REF**"
+		(at 0 -4.85 0)
+		(layer "F.SilkS")
+		(uuid "5d8ce8a7-29bc-4f9c-9e93-230e6b1c6530")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "#200-012 Encoder Spacer"
+		(at 0 4.95 0)
+		(layer "F.Fab")
+		(uuid "e5f955f6-d4bd-4037-83fd-7c33608e9066")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81e4373b-5b74-40ba-8978-8caddfd051a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d81ce67-a67c-4d77-8f2b-87288c036a30")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end 3.6 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7660d7eb-2ed0-45cb-b5ef-2a8e175c12c0")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "32b735fe-4b50-4300-8760-5b428ad57cf2")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9171cbc6-0a26-4efe-8b26-3a10799f71cb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -5 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "27681cae-58c4-46e1-8bc5-facf166eeaeb")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${LRV_CUSTOM_LIBS}/3d/#200-012-Encoder_Spacer.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
