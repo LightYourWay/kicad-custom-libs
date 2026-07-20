@@ -266,7 +266,7 @@
 		(uuid "29df6732-3f60-4f9f-ad45-43ccdc323145")
 	)
 	(embedded_fonts no)
-	(model "${LRV_CUSTOM_LIBS}/3d/Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.5mm.step"
+	(model "${LRV_CUSTOM_LIBS}/3d/DFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.5mm.step"
 		(offset
 			(xyz 0 0 0)
 		)
