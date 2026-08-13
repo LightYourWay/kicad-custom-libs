@@ -22484,7 +22484,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin no_connect line
 				(at -10.16 0 0)
 				(length 2.54)
 				(hide yes)
