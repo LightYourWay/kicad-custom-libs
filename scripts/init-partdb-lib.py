@@ -48,7 +48,10 @@ def parse_args() -> argparse.Namespace:
             "derived from the host name. The scheme may be omitted; https is "
             "assumed for named hosts and http for bare IP addresses."
         ),
-        epilog="Get a token from Part-DB under User Settings -> API tokens.",
+        epilog=(
+            "Get a token from Part-DB under User Settings -> API tokens. "
+            "Instances that allow anonymous access do not need one."
+        ),
     )
     parser.add_argument(
         "--url",
@@ -61,6 +64,11 @@ def parse_args() -> argparse.Namespace:
         default=os.environ.get("PARTDB_TOKEN", ""),
         help="API token to inject (default: $PARTDB_TOKEN, otherwise prompted "
         "with hidden input)",
+    )
+    parser.add_argument(
+        "--no-token",
+        action="store_true",
+        help="configure anonymous access, for instances that allow it",
     )
     parser.add_argument(
         "--force",
@@ -83,19 +91,28 @@ def parse_args() -> argparse.Namespace:
 
 
 def prompt_missing(args: argparse.Namespace) -> tuple:
+    """Return URL and token; an empty token means anonymous access."""
     url, token = args.url.strip(), args.token.strip()
+    interactive = sys.stdin.isatty()
 
-    if (not url or not token) and not sys.stdin.isatty():
-        fail(
-            "missing values and stdin is not a terminal; use --url/--token or "
-            "$PARTDB_URL/$PARTDB_TOKEN"
-        )
+    if token and args.no_token:
+        fail("--token and --no-token contradict each other")
 
-    while not url:
-        url = input("🔗 Part-DB URL (e.g. parts.example.com): ").strip()
+    if not url:
+        if not interactive:
+            fail("no URL given and stdin is not a terminal; use --url or $PARTDB_URL")
+        while not url:
+            url = input("🔗 Part-DB URL (e.g. parts.example.com): ").strip()
 
-    while not token:
-        token = getpass.getpass("🔑 Part-DB API token: ").strip()
+    if not token and not args.no_token:
+        if not interactive:
+            fail(
+                "no token given and stdin is not a terminal; use --token, "
+                "$PARTDB_TOKEN, or --no-token for anonymous access"
+            )
+        token = getpass.getpass(
+            "🔑 Part-DB API token (leave empty for anonymous access): "
+        ).strip()
 
     return url, token
 
@@ -152,6 +169,8 @@ class _NoRedirect(HTTPRedirectHandler):
 
 
 def fetch_json(url: str, token: str, timeout: float):
+    # KiCad always sends this header, empty token or not, so send the same thing
+    # -- otherwise the check could pass where KiCad later fails.
     request = Request(
         url,
         headers={"Accept": "application/json", "Authorization": f"Token {token}"},
@@ -162,9 +181,13 @@ def fetch_json(url: str, token: str, timeout: float):
             payload = response.read()
     except HTTPError as error:
         if error.code in (401, 403):
-            fail(f"API rejected the token (HTTP {error.code}) at {url}")
+            if token:
+                fail(f"API rejected the token (HTTP {error.code}) at {url}")
+            fail(f"API needs a token (HTTP {error.code}) at {url}")
         if error.code in (301, 302, 303, 307, 308):
-            fail(f"API redirected to a login page at {url}; the token was not accepted")
+            if token:
+                fail(f"API redirected to a login page at {url}; the token was not accepted")
+            fail(f"API redirected to a login page at {url}; it needs a token")
         fail(f"API returned HTTP {error.code} at {url}")
     except URLError as error:
         fail(
@@ -281,14 +304,19 @@ def main() -> None:
     else:
         print(f"🔍 checking {api_url}{api_version}/ ...")
         check_api(api_url, api_version, token, args.timeout)
-        print("✅ API reachable, token accepted")
+        print("✅ API reachable" + (", token accepted" if token else ""))
 
     document = render(template, host, api_url, token)
+    if not token:
+        # KiCad defaults the token to an empty string, so leave the key out.
+        document["source"].pop("token", None)
+
     write_private(TARGET, json.dumps(document, indent=2) + "\n")
 
     print(f"📝 wrote {TARGET} (mode 600)")
     print(f"   🔗 API URL: {api_url}")
     print(f"   🏠 host:    {host}")
+    print(f"   🔑 auth:    {'token' if token else 'anonymous'}")
 
     warn_if_tracked(TARGET)
 
