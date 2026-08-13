@@ -19,3 +19,9 @@ fp-info-cachep
 
 # Ignore DS files
 .DS_Store
+
+# Holds a personal Part-DB API token, generate it with scripts/init-partdb-lib.py
+symbol/Part-DB.kicad_httplib
+
+# Python bytecode cache
+__pycache__/
