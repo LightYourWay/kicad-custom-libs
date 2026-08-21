@@ -1,0 +1,100 @@
+(footprint "SolderWirePad_1x01_SMD_6x1mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Wire Pad, Square, SMD Pad,  3mm x 6mm")
+	(tags "MeasurementPoint Square SMDPad 3mmx6mm ")
+	(property "Reference" "J2"
+		(at 2.3 -0.95 0)
+		(layer "F.SilkS")
+		(uuid "5f9533c0-0471-41ae-aaaf-28ad6d191409")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "GND_Solder_Pad"
+		(at 0 2.54 0)
+		(layer "F.Fab")
+		(uuid "e7f4dfaa-43b6-4677-9d96-462d3fdee3ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7a4daef-2d6d-4574-af94-14e5f7358f10")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7edc7f03-492e-4493-9fe7-e7dcaa29176d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Connector*:*_1x??_*")
+	(sheetname "/")
+	(sheetfile "control_core-bottom_right_pushbtn_led.kicad_sch")
+	(attr exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -3.25 -0.75)
+		(end 3.25 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5ce07561-3220-4453-a213-6afd657d98af")
+	)
+	(fp_rect
+		(start -3.05 -0.55)
+		(end 3.05 0.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "20434ccc-0bed-44a5-a10f-f0181fefaf11")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "37a03e4e-10c4-4825-8183-fe10a70a0616")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0 90)
+		(size 1 6)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "95b67265-d9b2-4863-91eb-8b7e58f5f18f")
+	)
+	(embedded_fonts no)
+)
