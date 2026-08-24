@@ -1,0 +1,195 @@
+(footprint "0453004.MR"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Littelfuse NANO2 https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_451_453_datasheet.pdf.pdf")
+	(tags "Fuse Nano2")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "30e27f8c-4f67-407f-bc7d-861a2cd6a195")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "0453004.MR"
+		(at 0 2.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "073a2bb6-8902-44f1-acef-76b5b6a96883")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "454de5db-b1b7-4970-b876-5b4c5a1fa0e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c51d536-ddbe-4018-a367-1d11d4e154f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.215 -1.455)
+		(end 1.215 -1.455)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b16babf5-0209-4bca-9001-3eba4d724ac1")
+	)
+	(fp_line
+		(start -1.215 1.455)
+		(end 1.215 1.455)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9e840f2a-ea81-4ff9-b522-b970c1391eb6")
+	)
+	(fp_line
+		(start -3.69 -1.83)
+		(end 3.69 -1.83)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d36bf2e6-1ad4-42d2-b0c0-6e429fc525d7")
+	)
+	(fp_line
+		(start -3.69 1.83)
+		(end -3.69 -1.83)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a921fee0-ffe0-48e4-8ddb-fe7d06cd476f")
+	)
+	(fp_line
+		(start 3.69 -1.83)
+		(end 3.69 1.83)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ca142a62-4d8f-44f3-b6ba-59b1f9cbec3f")
+	)
+	(fp_line
+		(start 3.69 1.83)
+		(end -3.69 1.83)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "96208e38-b3b3-4e12-bd2b-f563f6140e55")
+	)
+	(fp_line
+		(start -3.05 -1.345)
+		(end -3.05 1.345)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0b75dea1-ae63-449b-a9d1-d7ce5e1758d3")
+	)
+	(fp_line
+		(start -3.05 -1.345)
+		(end 3.05 -1.345)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "258305d8-7d91-43e6-b474-a47e70709ebf")
+	)
+	(fp_line
+		(start -3.05 1.345)
+		(end 3.05 1.345)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7957ec2d-b714-4dfa-b0a6-6ca47cab31d5")
+	)
+	(fp_line
+		(start 3.05 1.345)
+		(end 3.05 -1.345)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f6c48683-cca9-4225-b5d0-697f858c4708")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d900f70e-31dc-4a57-82a4-690de6ab82c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.455 0)
+		(size 1.96 3.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a3940ab2-5a3b-45a2-9385-ae9fa22c2903")
+	)
+	(pad "2" smd rect
+		(at 2.455 0)
+		(size 1.96 3.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ac575f66-ed41-4ed9-8687-7a67a68cc4fd")
+	)
+	(embedded_fonts no)
+	(model "${LRV_CUSTOM_LIBS}/3d/0453004.MR.step"
+		(offset
+			(xyz 0 -1.475 1.35)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
