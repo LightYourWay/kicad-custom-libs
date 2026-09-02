@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -3.9 0)
 		(layer "F.SilkS")
-		(uuid "4d127e18-d805-47ad-9fba-acc621f7d028")
+		(uuid "0c726cac-caa9-4339-8db3-be636a1b84ca")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "Screw_ISO7380-1_M3x4_ButtonHead_TorxT10_Clearance3.2"
 		(at 0 4 0)
 		(layer "F.Fab")
-		(uuid "5c67341d-d044-41bb-8e90-3aac5945d2bb")
+		(uuid "888706a3-e8e9-4239-9992-374939a9c8aa")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "04a80cf1-cf87-44a1-97d1-c2a5420aa3a1")
+		(uuid "ab5a165e-3d03-4f8e-8470-f4839ef6f514")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e49456b2-7ba2-40ae-bdd9-06fd6eddfe99")
+		(uuid "d03be28c-b0e9-4540-abb9-54bf29791d5c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,7 +53,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "2d645f51-2091-4935-9397-405bf329582c")
+		(uuid "051095af-8ce7-4474-8c52-6c6139580342")
 		(effects
 			(font
 				(size 1 1)
@@ -72,7 +72,7 @@
 		)
 		(fill no)
 		(layer "Cmts.User")
-		(uuid "0c379294-44d7-4283-ade5-5e9290d111d4")
+		(uuid "121d6ea5-3c88-4fc9-94cc-f8f11c74475e")
 	)
 	(fp_circle
 		(center 0 0)
@@ -83,12 +83,12 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "38794ad8-77e9-4f2a-b831-3f499a8095bd")
+		(uuid "4e448232-1388-495f-88cb-81395c08e63a")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "e7d73811-9dc4-4b57-9a3b-4ea15d8db49d")
+		(uuid "7689cedc-d3a6-4935-8e95-145e5fc84cec")
 		(effects
 			(font
 				(size 1 1)
@@ -96,21 +96,20 @@
 			)
 		)
 	)
-	(pad "1" thru_hole circle
+	(pad "1" thru_hole custom
 		(at 0 0)
-		(size 3.6 3.6)
+		(size 5.7 5.7)
 		(drill 3.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
-		(uuid "eae1995b-a9bf-4c09-ba21-a951a7af7dbf")
-	)
-	(pad "1" connect circle
-		(at 0 0)
-		(size 5.7 5.7)
-		(layers "F.Cu" "F.Mask")
-		(zone_connect 2)
-		(uuid "cd1475f5-7980-4c2e-a9ec-583fdfa8eaf6")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives)
+		(uuid "9864bb63-c780-4302-bf88-cf77f60210a6")
 	)
 	(embedded_fonts no)
 	(model "${LRV_CUSTOM_LIBS}/3d/Screw_ISO7380-1_M3x4_ButtonHead_TorxT10.step"
