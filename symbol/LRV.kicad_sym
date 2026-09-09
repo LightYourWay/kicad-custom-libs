@@ -19130,7 +19130,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin open_collector line
 				(at 11.43 0 180)
 				(length 2.54)
 				(name "~{WDO}"
@@ -19148,7 +19148,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin open_collector line
 				(at 11.43 3.81 180)
 				(length 2.54)
 				(name "~{RESET}"
