@@ -1,0 +1,172 @@
+(footprint "Bourns_SRP1265A"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SRP1265A")
+	(tags "Inductor")
+	(property "Reference" "L**"
+		(at -0.34485 -0.12396 0)
+		(layer "F.SilkS")
+		(uuid "624651cb-0b36-413e-a2ac-be7dc0475531")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SRP1265A"
+		(at -0.34485 -0.12396 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "82653f9e-4ce3-4f04-8e27-f3e58e07b2fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2301add-7376-48e1-84f5-9ebe43d2515b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18b23191-9fbf-44dc-a406-78d01bfc068b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -6.75 -6.25)
+		(end 6.75 -6.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7da64ab6-5890-4742-befd-ba9e58de9ed4")
+	)
+	(fp_line
+		(start 6.75 6.25)
+		(end -6.75 6.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc54cb56-cdba-4a72-9a46-461ddf48ac92")
+	)
+	(fp_circle
+		(center -8.311 -0.042)
+		(end -8.311 0.10134)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "01f1e795-70ac-42e7-8c2c-06cc9728e9b6")
+	)
+	(fp_rect
+		(start -6.75 -6.25)
+		(end 6.75 6.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "7211f87a-fa6b-422a-939f-b39bf2693542")
+	)
+	(fp_line
+		(start -6.75 -6.25)
+		(end 6.75 -6.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "65de31bf-1a6f-4456-ac68-ceb07454f0b0")
+	)
+	(fp_line
+		(start -6.75 6.25)
+		(end -6.75 -6.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "07f8a142-68f1-4414-a25b-4d2e0e7e8a47")
+	)
+	(fp_line
+		(start 6.75 -6.25)
+		(end 6.75 6.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1baf04b0-45ed-4846-8e9d-1eaa565cf4a3")
+	)
+	(fp_line
+		(start 6.75 6.25)
+		(end -6.75 6.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c42bf11a-d22f-4e5c-b54b-58bfc207866e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.34485 -0.12396 0)
+		(layer "F.Fab")
+		(uuid "0dc9e367-3aca-408f-9aca-936ce7659545")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -5.55 0)
+		(size 3.1 5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2f6aa7a1-de35-49ab-a88f-a501c5944a7c")
+	)
+	(pad "2" smd rect
+		(at 5.55 0)
+		(size 3.1 5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3bb0fab7-a03f-454a-ab39-05a3cfc0569e")
+	)
+	(embedded_fonts no)
+	(model "${LRV_CUSTOM_LIBS}/3d/Bourns_SRP1265A.stp"
+		(offset
+			(xyz 0 0 3.099999858)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
